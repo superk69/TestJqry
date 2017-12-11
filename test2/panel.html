@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+           $(function(){
+                $(".btn-slide").click(function(){
+                    $("#panel").slideToggle("slow");
+                    $(this).toggleClass("active"); return false;
+                });
+           });
+        </script>
+        <title>Test Slide Panel</title>
+        <link rel="stylesheet" type="text/css" href="panel.css">    
+    </head>
+    <body>
+        <div id="panel">
+            test
+        </div>            
+        <p class="slide"><a href="#" class="btn-slide">Slide Panel</a></p>    
+    </body>
+</html>               
