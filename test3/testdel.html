@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $(".pane .delete").click(function(){
+		            $(this).parents(".pane").animate({ opacity: 'hide' }, "slow");
+	            });
+           });
+        </script>
+        <title>Test delete Panel</title>
+        <link rel="stylesheet" type="text/css" href="del.css">    
+    </head>
+    <body>
+        <div class="pane">
+            <h3>Sample heading</h3>
+            <p>TestJquery for http5 class.</p>
+            <img src="images/btn-delete.gif" alt="delete" class="delete" />
+        </div>
+        <div class="pane">
+            <h3>Sample heading</h3>            
+            <p>TestJquery for http5 class.</p>
+            <img src="images/btn-delete.gif" alt="delete" class="delete" />
+        </div>
+        <div class="pane">
+            <h3>Sample heading</h3>            
+            <p>TestJquery for http5 class.</p>
+            <img src="images/btn-delete.gif" alt="delete" class="delete" />
+        </div>
+        <div class="pane">
+            <h3>Sample heading</h3>            
+            <p>TestJquery for http5 class.</p>
+            <img src="images/btn-delete.gif" alt="delete" class="delete" />
+        </div>
+        <div class="pane">
+            <h3>Sample heading</h3>            
+            <p>TestJquery for http5 class.</p>
+            <img src="images/btn-delete.gif" alt="delete" class="delete" />
+        </div>
+    </body>
+</html>               
